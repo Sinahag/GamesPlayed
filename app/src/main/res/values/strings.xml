@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GameScore</string>
+    <string name="add_game">Create New Game</string>
+    <string name="back">Back</string>
+    <string name="player_2">Player 2</string>
+    <string name="player_1">Player 1</string>
+    <string name="num_wagers">Wagers</string>
+    <string name="sum_cards">Sum</string>
+    <string name="num_cards">Cards</string>
+    <string name="incomplete_score">Incomplete Score</string>
+    <string name="invalid_num_cards_toast">Must input a valid number of cards</string>
+    <string name="empty_numWager_toast">Number of Wager Cards must not be empty</string>
+    <string name="empty_sumCards_toast">Sum of Cards must not be empty</string>
+    <string name="empty_numCards_toast">Number of Cards must not be empty</string>
+    <string name="number_wagers">Number Wagers</string>
+    <string name="score">Score</string>
+    <string name="sum_points">Sum Points</string>
+    <string name="number_cards">Number Cards</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="empty_score">-</string>
+    <string name="save">Save</string>
+    <string name="delete">DELETE</string>
+</resources>

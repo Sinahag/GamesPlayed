@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewGame">
+
+    <EditText
+        android:id="@+id/p2NumWagerEntry"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/num_wagers"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p2Text"
+        tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/p1SumPointsEntry"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="112dp"
+        android:ems="10"
+        android:hint="@string/sum_cards"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1Text"
+        tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/p2SumPointsEntry"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/sum_cards"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p2Text"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/p1NumWagerEntry"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="112dp"
+        android:ems="10"
+        android:hint="@string/num_wagers"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1Text"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/p1ScoreBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="160dp"
+        android:text="@string/empty_score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1NumWagerEntry" />
+
+    <TextView
+        android:id="@+id/p2ScoreBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/empty_score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p2NumWagerEntry" />
+
+    <TextView
+        android:id="@+id/p1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/player_1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.624"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/p2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/player_2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numWagerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/number_wagers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sumPointsText" />
+
+    <TextView
+        android:id="@+id/numCardsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/number_cards"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sumPointsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/sum_points"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numCardsText" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numWagerText" />
+
+    <EditText
+        android:id="@+id/p2NumCardsEntry"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="@string/num_cards"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p2Text"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="154dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/p1NumCardsEntry"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="112dp"
+        android:ems="10"
+        android:hint="@string/num_cards"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1Text"
+        tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/winnerTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="364dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
